@@ -9,7 +9,7 @@ class UserSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = User
-        fields = ('id', 'username', 'first_name', 'last_name', 'posts')
+        fields = ('id', 'first_name', 'last_name', 'posts')
         ref_name = 'ReadOnlyUsers'
 
 
