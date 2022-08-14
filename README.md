@@ -6,10 +6,10 @@
 - любых других видов клиентов, подерживающих работу с RestAPI 
 
 ### Технологии
-- [Django 2.2.16]("https://docs.djangoproject.com/en/4.0/releases/2.2.16/")
-- [DRF 3.12.4]("https://www.django-rest-framework.org/community/release-notes/")
+- [Django 2.2.16](https://docs.djangoproject.com/en/4.0/releases/2.2.16/)
+- [DRF 3.12.4](https://www.django-rest-framework.org/community/release-notes/)
 
-Подробнее в [requirements.txt]("https://github.com/apfirsov/api_final_yatube/blob/master/requirements.txt")
+Подробнее в [requirements.txt](https://github.com/apfirsov/api_final_yatube/blob/master/requirements.txt)
 
 ### Как запустить проект:
 
@@ -64,6 +64,6 @@ http://<your_host>/redoc/
 
 ****
 ##  Об авторе
-**Автор:** [Артем Фирсов]("https://github.com/apfirsov")
+**Автор:** [Артем Фирсов](https://github.com/apfirsov)
 
-**Другие проекты:** [Доступны на GitHub]("https://github.com/apfirsov")
+**Другие проекты:** [Доступны на GitHub](https://github.com/apfirsov)
