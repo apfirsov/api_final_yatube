@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    {% include "includes/meta.html" %}
+    <title>
+      {% block title %}Данная страница временно не доступна{% endblock %}
+    </title>
+  </head>
+
+  <body>
+    {% include "includes/header.html" %}
+    {% block content %}
+      <main>
+        <p>
+          Данная страница временно не доступна. Попробуйте обновить страницу позже.
+        </p>
+      </main>
+    {% endblock %}
+    {% include "includes/footer.html" %}
+  </body>
+</html>

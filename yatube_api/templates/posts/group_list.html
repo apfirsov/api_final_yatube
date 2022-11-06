@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block title %}{{ group.title }}{% endblock %}
+{% block content %}
+  <main>
+    <div class="container py-5">
+      <h1>{{ group.title }}</h1>
+      <p>{{ group.description }}</p>
+      {% comment %}
+        {% for keep in DRY %} cycle and {% endfor %} moved to another template.
+      {% endcomment %}
+      {% include 'includes/posts_list.html' %}
+    </div>
+  </main>
+{% endblock %}

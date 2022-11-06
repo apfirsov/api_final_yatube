@@ -41,7 +41,6 @@ class Post(models.Model):
         'Картинка', upload_to='posts/', null=True, blank=True)
 
     class Meta:
-        # ordering = ['-pub_date']
         default_related_name = 'posts'
         verbose_name = 'Пост'
         verbose_name_plural = 'Посты'

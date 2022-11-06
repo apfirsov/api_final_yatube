@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %}Последние обновления на сайте{% endblock %}
+{% block content %}
+  {% include 'includes/switcher.html' %}
+  <main>
+    <div class="container py-5">
+      {% include 'includes/posts_list.html' %}
+    </div>
+  </main>
+{% endblock %}
